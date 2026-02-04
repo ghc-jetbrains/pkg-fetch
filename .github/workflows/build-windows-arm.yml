@@ -15,7 +15,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target-node: [20, 22, 24]
+        target-node: [22]
         arch:
           - name: arm64
             os: windows-11-arm
